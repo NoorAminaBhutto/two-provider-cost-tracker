@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-11-19T00:22:52.517993",
+    "prompt": "Explain Machine Learning in simple words.",
+    "results": [
+        {
+            "provider": "Gemini",
+            "model": "gemini-3.5-flash-lite",
+            "status": "success",
+            "response": "Imagine teaching a toddler how to identify a dog. \n\nYou don't give the child a strict dictionary definition (e.g., *“a domesticated carnivorous mammal that typically has a snout, barks, and has four legs”*). Instead, you show them pictures. \n\nYou point to a Golden Retriever and say, \"Dog.\" You point to a Poodle and say, \"Dog.\" When the child points to a cat and says \"Dog,\" you gently correct them: \"No, that's a cat.\" \n\nAfter seeing dozens of pictures, the child’s brain **learns the pattern** of what a dog looks like. Soon, they can correctly identify a dog they’ve never seen before.\n\n**Machine Learning (ML) is teaching computers the exact same way.**\n\nInstead of writing millions of rigid rules of code to tell a computer how to solve a problem, you feed the computer a massive amount of data and let it figure out the rules on its own.\n\n### How it works in 3 steps:\n1. **Data:** You give the computer lots of examples (e.g., thousands of photos of emails, marked either \"Spam\" or \"Not Spam\").\n2. **Training:** The computer looks for patterns in those examples (e.g., spam emails often contain the word \"FREE\" in all caps). \n3. **Prediction:** You give the computer a brand new email it has never seen before, and it uses the patterns it learned to guess whether it’s spam or not.\n\n### Real-world examples you use every day:\n* **Netflix/Spotify:** They look at what you’ve watched or listened to in the past, find patterns in your taste, and recommend things you might like.\n* **TikTok/Instagram:** The algorithm learns what kind of videos make you stay longer, and feeds you more of those.\n* **Google Translate:** By reading millions of translated documents, the computer learns how languages work and translates text for you.\n\n**In short:** Traditional programming is giving a computer a recipe to follow. Machine learning is giving a computer a thousand examples of a cake and letting it figure out the recipe itself.",
+            "input_tokens": 8,
+            "output_tokens": 454,
+            "total_tokens": 462,
+            "cost": 0.0
+        },
+        {
+            "provider": "Groq",
+            "model": "openai/gpt-oss-20b",
+            "status": "success",
+            "response": "### Machine Learning in a Nutshell\n\nImagine a **kid learning to recognize shapes**.  \nAt first the kid sees a lot of pictures and the teacher says, “This is a circle, this is a square.”  \nAfter looking at many examples, the kid starts to **recognize a new shape on its own** without the teacher pointing out what it is.\n\nThat’s exactly what *machine learning* does, but for computers:\n\n| Step | What the computer does | What it learns |\n|------|------------------------|----------------|\n| **1. See lots of data** | The computer is fed many examples (images, words, numbers, etc.). | It builds a mental picture of what those examples look like. |\n| **2. Find patterns** | It looks for regularities (e.g., “when the pixel pattern is this, it’s a dog”). | It creates a rule‑book or a map that links inputs to outputs. |\n| **3. Make predictions** | When it sees a new input it hasn’t seen before, it applies its rule‑book. | It guesses what the input is (e.g., “this looks like a cat”). |\n| **4. Get feedback** | The computer checks its guess against the real answer. | If it was wrong, it tweaks its rule‑book a little bit. |\n| **5. Repeat** | It keeps doing this many times, learning from successes and mistakes. | It gets better and better at the task. |\n\n---\n\n#### Why is it called “learning”?\n\nBecause the computer **improves its performance automatically**, just like a human gets smarter with practice.  \nNo one has to hand‑write the exact formula for every possible situation; the computer figures it out from data.\n\n---\n\n#### Types of machine learning (quick cheat sheet)\n\n| Type | How it works | Example |\n|------|--------------|---------|\n| **Supervised** | Learns from labeled examples (teacher gives the answer). | Spam email filter: the computer is shown “spam” and “not spam” emails. |\n| **Unsupervised** | Finds patterns in unlabeled data (no teacher). | Grouping customers by buying habits. |\n| **Reinforcement** | Learns by trial and error, getting rewards or penalties. | A game‑playing robot that gets points for good moves. |\n\n---\n\n#### Bottom line\n\nMachine learning is a way to **teach computers to spot patterns and make decisions from data**, just like a child learns to recognize new things after seeing many examples.",
+            "input_tokens": 78,
+            "output_tokens": 578,
+            "total_tokens": 656,
+            "cost": 0.0
+        }
+    ]
+}
